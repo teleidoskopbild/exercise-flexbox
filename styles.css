@@ -13,6 +13,19 @@ header {
   color: white;
   height: 120px;
   padding: 20px;
+  /*                   */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #264653;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 nav ul {
@@ -27,4 +40,8 @@ header a {
 
 main {
   padding: 20px;
+}
+
+a:visited {
+  color: aqua;
 }
